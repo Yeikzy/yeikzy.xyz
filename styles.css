@@ -1,0 +1,12 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+
+body {
+    padding-top: 3em;
+}
+hr.space {
+    border: none;
+}
+
+.column img {
+    border: 1px solid;
+} 
