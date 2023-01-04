@@ -1,6 +1,21 @@
-/* global */
+/* import */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+/*scollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #121629;
+  border-radius: 10px;
+  border-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* global */
 .grid-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
